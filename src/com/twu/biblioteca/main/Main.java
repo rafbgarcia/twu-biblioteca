@@ -3,6 +3,7 @@ package com.twu.biblioteca.main;
 import com.twu.biblioteca.classes.Menu;
 import com.twu.biblioteca.classes.Persistence;
 import com.twu.biblioteca.models.Book;
+import com.twu.biblioteca.models.Movie;
 
 import java.util.Scanner;
 
@@ -39,5 +40,21 @@ public class Main {
         Persistence.addBook(new Book("Programming Languages"));
         Persistence.addBook(new Book("How to code"));
         Persistence.addBook(new Book("How to do nothing, easy steps"));
+
+        Persistence.addMovie(new Movie("Fast and Furious", "Director 1", 2005));
+        Persistence.addMovie(new Movie("Fast and Furious 2", "Director 1", 2007));
+        Persistence.addMovie(new Movie("Fast and Furious 3", "Director 1", 2008));
+        Persistence.addMovie(new Movie("Harry Potter", "Director 2", 2005));
+        Persistence.addMovie(new Movie("Harry Potter 2", "Director 2", 2008));
+        Persistence.addMovie(new Movie("Harry Potter 3", "Director 2", 2010));
+        Persistence.addMovie(new Movie("Harry Potter 4", "Director 2", 2011));
+        Persistence.addMovie(new Movie("Ghost", "Director 3", 1990));
+        Persistence.addMovie(new Movie("Ghost 2", "Director 4", 1990));
+        Persistence.addMovie(new Movie("Ghost 3", "Director 4", 1990));
+        Persistence.addMovie(new Movie("Avengers", "Director 5", 2012));
+        Persistence.addMovie(new Movie("Spider-man", "Director 6", 2008));
+        Persistence.addMovie(new Movie("Spider-man 2", "Director 6", 2010));
+        Persistence.addMovie(new Movie("Spider-man 3", "Director 6", 2012));
+        Persistence.addMovie(new Movie("New Spider-man", "Director 7", 2013));
     }
 }
