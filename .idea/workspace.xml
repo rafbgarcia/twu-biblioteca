@@ -44,7 +44,7 @@
     <file path="/MovieView.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369329948024" ignored="false" />
     <file path="/UserTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369339437359" ignored="false" />
     <file path="/User.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369335103448" ignored="false" />
-    <file path="/UserControllerTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369342372994" ignored="false" />
+    <file path="/UserControllerTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369343057017" ignored="false" />
     <file path="/UserController.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369342446119" ignored="false" />
     <file path="/SessionTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369342070157" ignored="false" />
     <file path="/Session.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369342315719" ignored="false" />
@@ -111,7 +111,7 @@
       <file leaf-file-name="UserControllerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controllers/UserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="459" selection-end="460" vertical-scroll-proportion="0.47368422">
+            <state line="13" column="49" selection-start="351" selection-end="351" vertical-scroll-proportion="0.4105263">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,8 +183,8 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/models/User.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/classes/SessionTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Session.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controllers/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controllers/UserControllerTest.java" />
       </list>
     </option>
   </component>
@@ -848,7 +848,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21231766" sideWeight="0.75213677" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1057,7 +1057,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/controllers/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="459" selection-end="460" vertical-scroll-proportion="0.47368422">
+        <state line="13" column="49" selection-start="351" selection-end="351" vertical-scroll-proportion="0.4105263">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
