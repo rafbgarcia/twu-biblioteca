@@ -21,8 +21,8 @@
     <file path="/BookController.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369252514400" ignored="false" />
     <file path="/BookControllerTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369253210856" ignored="false" />
     <file path="/BookViewTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369253458581" ignored="false" />
-    <file path="/MovieTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369258583664" ignored="false" />
-    <file path="/Movie.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369259465521" ignored="false" />
+    <file path="/MovieTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369327317042" ignored="false" />
+    <file path="/Movie.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369325446366" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,19 +83,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Movie.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/models/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="430" selection-end="528" vertical-scroll-proportion="0.6818182">
+            <state line="13" column="17" selection-start="323" selection-end="324" vertical-scroll-proportion="-7.8">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MovieTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/models/MovieTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="53" selection-start="250" selection-end="250" vertical-scroll-proportion="-6.0">
+            <state line="22" column="44" selection-start="487" selection-end="487" vertical-scroll-proportion="0.7894737">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/classes/MenuTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Menu.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/classes/PersistenceTest.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/models/MovieTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/models/Movie.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/models/MovieTest.java" />
       </list>
     </option>
   </component>
@@ -454,35 +454,7 @@
       <recent name="com.twu.biblioteca.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MenuTest">
-    <configuration default="false" name="PersistenceTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="twu-biblioteca-rafaelgarcia" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca.classes" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.classes.PersistenceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MovieTest.ratingIsNAIfMovieIsEarlierThan2010">
     <configuration default="false" name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -594,6 +566,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="MovieTest.ratingIsNAIfMovieIsEarlierThan2010" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="twu-biblioteca-rafaelgarcia" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.models" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.models.MovieTest" />
+      <option name="METHOD_NAME" value="ratingIsNAIfMovieIsEarlierThan2010" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -686,19 +686,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PersistenceTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BookControllerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BookViewTest and 2 more" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MenuTest.showsTheOptions" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BookControllerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BookViewTest and 2 more" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuTest.showsTheOptions" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MovieTest.ratingIsNAIfMovieIsEarlierThan2010" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest.showsTheOptions" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BookViewTest and 2 more" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BookControllerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PersistenceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MovieTest.ratingIsNAIfMovieIsEarlierThan2010" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MenuTest.showsTheOptions" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BookViewTest and 2 more" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BookControllerTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -986,19 +986,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/models/MovieTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/models/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="250" selection-end="250" vertical-scroll-proportion="-6.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="13" column="17" selection-start="323" selection-end="324" vertical-scroll-proportion="-7.8">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/models/Movie.java">
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/models/MovieTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="430" selection-end="528" vertical-scroll-proportion="0.6818182">
-          <folding />
+        <state line="22" column="44" selection-start="487" selection-end="487" vertical-scroll-proportion="0.7894737">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

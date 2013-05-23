@@ -1,7 +1,5 @@
 package com.twu.biblioteca.models;
 
-import java.util.Random;
-
 public class Movie {
     private String name;
     private String director;
@@ -13,14 +11,41 @@ public class Movie {
         this.director = director;
         this.year = year;
 
-        double rat;
-        if(year >= 2010) {
+        if(year >= 2010)
             this.rating = "N/A";
-        } else {
-            rat = Math.random() * (10 - 0);
-            Random rand;
-            rand.nextInt(10);
-            this.rating = rat.toString();
-        }
+        else
+            this.rating = Integer.toString((int) (Math.random() * 10));
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getRating() {
+        return rating;
+    }
+
+    public void setRating(String rating) {
+        this.rating = rating;
     }
 }
