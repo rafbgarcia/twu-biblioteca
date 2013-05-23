@@ -35,4 +35,11 @@ public class Persistence {
         users.add(user);
     }
 
+    public static User getUser(String login) {
+        for(User u : users)
+            if(u.getLogin().equals(login))
+                return u;
+
+        return null;
+    }
 }

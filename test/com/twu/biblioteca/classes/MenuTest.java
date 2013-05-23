@@ -21,6 +21,7 @@ public class MenuTest {
         content.append("2 - List of movies\n");
         content.append("3 - Reserve a book\n");
         content.append("4 - Membership details\n");
+        content.append("5 - Login\n");
         content.append("9 - Quit\n");
 
         assertEquals(content.toString(), Menu.getOptions());

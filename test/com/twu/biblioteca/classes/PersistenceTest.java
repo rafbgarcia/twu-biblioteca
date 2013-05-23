@@ -2,6 +2,7 @@ package com.twu.biblioteca.classes;
 
 import com.twu.biblioteca.models.Book;
 import com.twu.biblioteca.models.Movie;
+import com.twu.biblioteca.models.User;
 import junit.framework.Assert;
 import org.junit.Test;
 
@@ -27,6 +28,16 @@ public class PersistenceTest {
         Persistence.addMovie(new Movie("Test", "Tester", 2000));
 
         Assert.assertEquals(3, Persistence.getMovies().size());
+    }
+
+    @Test
+    public void returnTheUserForGivenLoginOrNullIfUserIsNotInTheList() {
+        Assert.assertNull(Persistence.getUser("111-1111"));
+
+        User u = new User("t", "t", "t", "t");
+        Persistence.addUser(u);
+
+        Assert.assertEquals(u, Persistence.getUser(u.getLogin()));
     }
 
 }

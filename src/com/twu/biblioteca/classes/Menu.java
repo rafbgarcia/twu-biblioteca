@@ -2,8 +2,6 @@ package com.twu.biblioteca.classes;
 
 import com.twu.biblioteca.controllers.BookController;
 import com.twu.biblioteca.controllers.MovieController;
-import com.twu.biblioteca.models.Book;
-import com.twu.biblioteca.views.BookView;
 
 public class Menu {
 
@@ -14,6 +12,7 @@ public class Menu {
         sb.append("2 - List of movies\n");
         sb.append("3 - Reserve a book\n");
         sb.append("4 - Membership details\n");
+        sb.append("5 - Login\n");
         sb.append("9 - Quit\n");
 
         return sb.toString();
