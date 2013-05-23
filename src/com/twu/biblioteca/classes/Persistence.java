@@ -2,12 +2,14 @@ package com.twu.biblioteca.classes;
 
 import com.twu.biblioteca.models.Book;
 import com.twu.biblioteca.models.Movie;
+import com.twu.biblioteca.models.User;
 
 import java.util.ArrayList;
 
 public class Persistence {
     private static ArrayList<Book> books = new ArrayList<Book>();
     private static ArrayList<Movie> movies = new ArrayList<Movie>();
+    private static ArrayList<User> users = new ArrayList<User>();
 
     public static ArrayList<Book> getBooks() {
         return books;
@@ -28,4 +30,9 @@ public class Persistence {
     public static void addMovie(Movie movie) {
         movies.add(movie);
     }
+
+    public static void addUser(User user) {
+        users.add(user);
+    }
+
 }
