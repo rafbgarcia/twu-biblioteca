@@ -36,4 +36,7 @@ public class BookController {
         return Persistence.getBookAt(bookIndex).isReserved();
     }
 
+    public static void showBooks() {
+        BookView.showBooks();
+    }
 }

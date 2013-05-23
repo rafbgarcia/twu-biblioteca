@@ -21,7 +21,7 @@ public class Menu {
     public static String handleOption(int option) {
         switch (option) {
             case 1:
-                BookView.showBooks();
+                BookController.showBooks();
                 break;
             case 2:
                 // TODO list movies

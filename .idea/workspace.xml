@@ -4,7 +4,9 @@
     <list default="true" id="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Movie.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/models/MovieTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/BookController.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/BookController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/main/Main.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Menu.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Menu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Persistence.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Persistence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/classes/PersistenceTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/classes/PersistenceTest.java" />
     </list>
@@ -13,7 +15,7 @@
     <file path="/Dummy.txt" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369243231042" ignored="false" />
     <file path="/ExampleTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1368642255711" ignored="false" />
     <file path="/Main.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369328310897" ignored="false" />
-    <file path="/Menu.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369255347383" ignored="false" />
+    <file path="/Menu.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369328747295" ignored="false" />
     <file path="/MenuTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369254986858" ignored="false" />
     <file path="/MainTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369232424197" ignored="false" />
     <file path="/BookTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369245880322" ignored="false" />
@@ -21,7 +23,7 @@
     <file path="/fragment.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369248848769" ignored="false" />
     <file path="/Book.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369246425294" ignored="false" />
     <file path="/PersistenceTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369328040505" ignored="false" />
-    <file path="/BookController.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369252514400" ignored="false" />
+    <file path="/BookController.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369328770254" ignored="false" />
     <file path="/BookControllerTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369253210856" ignored="false" />
     <file path="/BookViewTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369253458581" ignored="false" />
     <file path="/MovieTest.java" changelist="99458c60-72b1-4b6b-8109-bbbd29ad2e5f" time="1369327317042" ignored="false" />
@@ -86,10 +88,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Menu.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/classes/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="35" selection-start="726" selection-end="726" vertical-scroll-proportion="0.50239235">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/controllers/BookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="29" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-23.4">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="75" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.9282297">
+            <state line="57" column="75" selection-start="2263" selection-end="2263" vertical-scroll-proportion="-15.52">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,15 +144,15 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/models/Book.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controllers/BookController.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/controllers/BookControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/BookController.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/views/BookViewTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/classes/MenuTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Menu.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/models/Movie.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/models/MovieTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Persistence.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/classes/PersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/classes/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/BookController.java" />
       </list>
     </option>
   </component>
@@ -907,27 +931,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/controllers/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="418" selection-end="427" vertical-scroll-proportion="0.32357472">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/views/BookView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="32" selection-start="467" selection-end="467" vertical-scroll-proportion="0.3697997">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/classes/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="24" selection-start="796" selection-end="796" vertical-scroll-proportion="-13.2">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -988,7 +994,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="75" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.9282297">
+        <state line="57" column="75" selection-start="2263" selection-end="2263" vertical-scroll-proportion="-15.52">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/controllers/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="29" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-23.4">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/classes/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="35" selection-start="726" selection-end="726" vertical-scroll-proportion="0.50239235">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
