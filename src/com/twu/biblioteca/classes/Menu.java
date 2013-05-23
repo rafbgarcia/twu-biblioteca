@@ -1,6 +1,7 @@
 package com.twu.biblioteca.classes;
 
 import com.twu.biblioteca.controllers.BookController;
+import com.twu.biblioteca.controllers.MovieController;
 import com.twu.biblioteca.models.Book;
 import com.twu.biblioteca.views.BookView;
 
@@ -24,7 +25,7 @@ public class Menu {
                 BookController.showBooks();
                 break;
             case 2:
-                // TODO list movies
+                MovieController.showMovies();
                 break;
             case 3:
                 BookController.reserveBook();
