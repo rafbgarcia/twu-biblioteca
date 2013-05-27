@@ -42,4 +42,8 @@ public class Persistence {
 
         return null;
     }
+
+    public static void clearMovies() {
+        movies.clear();
+    }
 }

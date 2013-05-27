@@ -4,6 +4,7 @@ import com.twu.biblioteca.classes.Menu;
 import com.twu.biblioteca.classes.Persistence;
 import com.twu.biblioteca.models.Book;
 import com.twu.biblioteca.models.Movie;
+import com.twu.biblioteca.models.User;
 
 import java.util.Scanner;
 
@@ -37,10 +38,12 @@ public class Main {
     }
 
     private static void insertTestData() {
+        // Books
         Persistence.addBook(new Book("Programming Languages"));
         Persistence.addBook(new Book("How to code"));
         Persistence.addBook(new Book("How to do nothing, easy steps"));
 
+        // Movies
         Persistence.addMovie(new Movie("Fast and Furious", "Director 1", 2005));
         Persistence.addMovie(new Movie("Fast and Furious 2", "Director 1", 2007));
         Persistence.addMovie(new Movie("Fast and Furious 3", "Director 1", 2008));
@@ -56,5 +59,15 @@ public class Main {
         Persistence.addMovie(new Movie("Spider-man 2", "Director 6", 2010));
         Persistence.addMovie(new Movie("Spider-man 3", "Director 6", 2012));
         Persistence.addMovie(new Movie("New Spider-man", "Director 7", 2013));
+
+        // Users
+        Persistence.addUser(new User("Name", "email@email.com", "123456", "84 8888-8888"));
+        Persistence.addUser(new User("Name", "email@email.com", "123456", "84 8888-8888"));
+        Persistence.addUser(new User("Name", "email@email.com", "123456", "84 8888-8888"));
+        Persistence.addUser(new User("Name", "email@email.com", "123456", "84 8888-8888"));
+        Persistence.addUser(new User("Name", "email@email.com", "123456", "84 8888-8888"));
+        Persistence.addUser(new User("Name", "email@email.com", "123456", "84 8888-8888"));
+        Persistence.addUser(new User("Name", "email@email.com", "123456", "84 8888-8888"));
+        Persistence.addUser(new User("Name", "email@email.com", "123456", "84 8888-8888"));
     }
 }

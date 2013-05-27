@@ -19,8 +19,10 @@ public class MenuTest {
         content.append("Please, choose one of the options below:\n");
         content.append("1 - List of books\n");
         content.append("2 - List of movies\n");
-        content.append("3 - Reserve a book\n");
-        content.append("4 - Membership details\n");
+
+        // Not logged in
+        // content.append("3 - Reserve a book\n");
+        // content.append("4 - Membership details\n");
         content.append("5 - Login\n");
         content.append("9 - Quit\n");
 
@@ -29,14 +31,26 @@ public class MenuTest {
 
     // A customer should be able to select a menu option.
     @Test
-    public void returnsTrueIfSelectedOptionIsOneOrTwoOrThreeAndFalseOtherwise() {
-        assertFalse(Menu.isValidOption(0));
-        assertFalse(Menu.isValidOption(6));
+    public void returnsTrueIfSelectedOptionIsBetweenOneAndFive() {
         assertTrue(Menu.isValidOption(1));
         assertTrue(Menu.isValidOption(2));
         assertTrue(Menu.isValidOption(3));
         assertTrue(Menu.isValidOption(4));
         assertTrue(Menu.isValidOption(5));
+    }
+
+    @Test
+    public void returnsTrueIfSelectedOptionIsNine() {
+        assertTrue(Menu.isValidOption(9));
+    }
+
+    @Test
+    public void returnsFalseIfSelectedOptionIsNotInTheListOfOptions() {
+        assertFalse(Menu.isValidOption(0));
+        assertFalse(Menu.isValidOption(6));
+        assertFalse(Menu.isValidOption(7));
+        assertFalse(Menu.isValidOption(8));
+        assertFalse(Menu.isValidOption(10));
     }
 
     // A customer should be notified when they do not select a valid option with “Select a valid option!!”

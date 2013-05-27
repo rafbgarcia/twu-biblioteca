@@ -12,7 +12,7 @@ public class UserControllerTest {
         User u = new User("t", "t", "123456", "t");
         Persistence.addUser(u);
 
-        Assert.assertTrue(UserController.autenticate(u));
+        Assert.assertTrue(UserController.autenticate(u.getLogin(), u.getPassword()));
     }
 
 }

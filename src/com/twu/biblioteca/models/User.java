@@ -6,7 +6,7 @@ public class User {
     private String login;
     private String password;
     private String phone;
-    private static int userCount = 1111111;
+    public static int userCount = 1111111;
 
     public User(String name, String email, String password, String phoneNumber) {
         this.name = name;
@@ -16,11 +16,18 @@ public class User {
         this.login = generateUserLogin();
     }
 
-    public static String generateUserLogin() {
+    private static String generateUserLogin() {
         String login = String.valueOf(userCount);
         login = login.substring(0, 3) + "-" + login.substring(3, 7);
 
         userCount++;
+        return login;
+    }
+
+    public static String generateUserLogin(int userCount) {
+        String login = String.valueOf(userCount);
+        login = login.substring(0, 3) + "-" + login.substring(3, 7);
+
         return login;
     }
 

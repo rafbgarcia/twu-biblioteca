@@ -19,4 +19,12 @@ public class Session {
         return null;
     }
 
+    public static boolean hasUserLoggedIn() {
+        return ! session.isEmpty();
+    }
+
+    public static void logout() {
+        session.clear();
+    }
+
 }

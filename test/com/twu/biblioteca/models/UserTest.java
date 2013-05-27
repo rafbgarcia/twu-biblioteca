@@ -19,11 +19,13 @@ public class UserTest {
 
     @Test
     public void usersLoginIsGeneratedAccordingToTheNumberOfUsers() {
-        Assert.assertEquals("111-1111", user.getLogin());
+        Assert.assertEquals(User.generateUserLogin(User.userCount - 1), user.getLogin());
+
         User u = new User("T", "T", "T", "T");
-        Assert.assertEquals("111-1112", u.getLogin());
+        Assert.assertEquals(User.generateUserLogin(User.userCount - 1), u.getLogin());
+
         User u2 = new User("T", "T", "T", "T");
-        Assert.assertEquals("111-1113", u2.getLogin());
+        Assert.assertEquals(User.generateUserLogin(User.userCount - 1), u2.getLogin());
     }
 
 }

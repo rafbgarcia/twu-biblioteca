@@ -9,6 +9,7 @@ public class MovieViewTest {
 
     @Test
     public void showsAListOfMovies() {
+        Persistence.clearMovies();
         Persistence.addMovie(new Movie("Test", "Tester", 2012));
         Persistence.addMovie(new Movie("Test2", "Tester2", 2013));
 
