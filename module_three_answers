@@ -1,0 +1,47 @@
+1 - 
+SELECT m.name, b.title 
+FROM member m 
+INNER JOIN checkout_item ci ON ci.member_id = m.id 
+INNER JOIN book b ON ci.book_id = b.id 
+WHERE book_id = 5;
+
+> Anand Beck|The Hobbit
+
+
+2 - 
+SELECT count(m.id) FROM member m WHERE m.id NOT IN( SELECT member_id FROM checkout_item );
+
+> 37
+
+
+3 -
+SELECT b.title FROM book b WHERE b.id NOT IN( SELECT book_id FROM checkout_item WHERE book_id != '' ) 
+UNION 
+SELECT m.title FROM movie m WHERE m.id NOT IN( SELECT movie_id FROM checkout_item WHERE movie_id != '');
+
+> 1984
+  Catcher in the Rye
+  Crouching Tiger, Hidden Dragon
+  Domain Driven Design
+  Fellowship of the Ring
+  Lawrence of Arabia
+  Office Space
+  Thin Red Line
+  To Kill a Mockingbird
+  Tom Sawyer
+
+4 -
+INSERT INTO book(title) VALUES("The Pragmatic Programmer");
+INSERT INTO member(name) VALUES("Rafael Garcia");
+INSERT INTO checkout_item(member_id, book_id) VALUES(43, 11);
+
+sqlite> SELECT m.name, b.title FROM member m INNER JOIN checkout_item ci ON ci.member_id = m.id INNER JOIN book b ON ci.book_id = b.id WHERE book_id = 11;
+Rafael Garcia|The Pragmatic Programmer
+
+
+5 -
+SELECT m.name FROM member m INNER JOIN checkout_item ci ON ci.member_id = m.id GROUP BY member_id HAVING COUNT(member_id) > 1;
+
+> Anand Beck
+  Frank Smith
+
